@@ -29,7 +29,7 @@ module.exports.run = async (client, message) => {
 
 module.exports.help = {
 
-    name: "randomFood",
+    name: "random",
     description: "Idk"
 
 };
