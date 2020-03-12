@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const {getModules} = require("./functions/modulesLoad.js");
+const {token, prefix} = require("./config");
 client.commands = new Discord.Collection();
 
 client.on("ready", () => {
@@ -15,7 +16,6 @@ client.on("ready", () => {
 client.on("message", async (message) => {
 
     if (message.author.bot) return;
-    let prefix = "p:";
     let msgargs = message.content.split(" ");
     let cmdargs = msgargs[0];
     let args = msgargs.slice(1);
@@ -28,4 +28,4 @@ client.on("message", async (message) => {
 
 });
 
-client.login("NjU1MDg2NDQ0MDQ1NTMzMjE0.Xl_rkA.QJzhZRhrIhsIr7HxdikplEcK4SA");
+client.login(token);
