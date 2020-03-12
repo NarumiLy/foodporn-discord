@@ -15,7 +15,7 @@ module.exports.run = async (client, message) => {
 
     await message.channel.send(helpString, {code: true}).catch((e) => {
 
-        message.channel.send(`Error: ${e}. (ps: retry the cmd, if it doesn't work use p:support cmd or warn the creator)`);
+        message.channel.send(`Error: ${e}. (ps: retry the cmd, if it doesn't work warn <@323100698160005120>)`);
 
     });
 };

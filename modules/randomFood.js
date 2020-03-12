@@ -26,6 +26,6 @@ module.exports.run = async (client, message) => {
 module.exports.help = {
 
     name: "random",
-    description: "Idk"
+    description: "Send a random picture of food."
 
 };

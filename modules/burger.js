@@ -12,6 +12,6 @@ module.exports.run = async (client, message) => {
 module.exports.help = {
 
     name: "burger",
-    description: "Send a photo of a burger. Logic. Simple. Basic."
+    description: "Send a photo of a burger. Logic. Simple. Basic. For americans."
 
 };
