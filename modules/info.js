@@ -7,7 +7,7 @@ module.exports.run = async (client, message) => {
     .setTitle("Information")
     .addField("Creator", "<@323100698160005120>", true)
     .addField("RAM usage:", process.memoryUsage().heapUsed + " MB", true)
-    .setTimestamp(new Date.now())
+    .setTimestamp(Date.now())
     .setFooter("Pornfood is the best bot for useful commands", client.user.displayAvatarURL());
     
     await message.channel.send({embed});
