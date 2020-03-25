@@ -1,6 +1,6 @@
 # Hakken: foodporn discord bot.
 
-It's just a simple bot who send photos of food with a few troll sentences. The discord bot is creating by me and the api by Seyz and me. Have fun to use it.
+It's just a simple bot who send photos of food with a few troll sentences. The discord bot is creating by me and the api by Seyz and me. Have fun to use it. (ps: the api doesn't have much images but the bot can work with an another api... / l'api utilisée n'a pas assez d'images pour upload, mais le bot peut marcher avec une autre api, juste à changer l'url dans la class appropriée...)
 
 ## Cmds
 
