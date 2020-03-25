@@ -11,7 +11,7 @@ module.exports.run = async (client, message) => {
 
 module.exports.help = {
 
-    name: "burger",
+    name: "cake",
     description: "Send a photo of a fucking big tasty cake."
 
 };
