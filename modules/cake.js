@@ -3,7 +3,7 @@ const pornfoodApi = require("../functions/pornfoodApiCmd");
 module.exports.run = async (client, message) => {
 
     let food = new pornfoodApi("cake");
-    let embed = food.getFoodImg();
+    let embed = await food.getFoodImg();
 
     await message.channel.send({embed});
 
